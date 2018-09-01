@@ -1,0 +1,30 @@
+{
+  "name": "vscode-markdown-modernlit",
+  "version": "1.0.0",
+  "publisher": "torazaburo",
+  "description": "VS Code extension for modernlit, bringing literate programming to the web",
+  "main": "index.js",
+  "engines": {
+    "vscode": "^1.0.0"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "modernlit"
+  ],
+  "author": "rtm@gol.com",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^10.9.4",
+    "markdown-it-mlfragment": "^1.0.0",
+    "vscode": "^1.1.21"
+  },
+  "contributes": {
+    "markdown.markdownItPlugins": true,
+    "markdown.previewStyles": [
+      "./style.css"
+    ]
+  }
+}

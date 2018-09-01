@@ -1,0 +1,10 @@
+/* Styles for includion in VS Code extension for modernlit dialect of Markdown. */
+
+.mlfragment {
+  backgroundColor: purple;
+  color: white;
+}
+
+.mlfragment::before { content: "<<"; }
+.mlfragment::after { content: "<<="; }
+.mlfragment.increment::after { content: "<<+="; }
